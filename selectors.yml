@@ -1,0 +1,28 @@
+name:
+    css: 'span#productTitle.a-size-large.product-title-word-break'
+    type: Text
+mrp:
+    css: 'span.priceBlockStrikePriceString.a-text-strike'
+    type: Text
+price:
+    css: 'span#priceblock_ourprice.a-size-medium.a-color-price.priceBlockBuyingPriceString'
+    type: Text
+deal:
+    css: 'span#priceblock_dealprice.a-size-medium.a-color-price.priceBlockDealPriceString'
+    type: Text
+saved:
+    css: 'td.a-span12.a-color-price.a-size-base.priceBlockSavingsString'
+    type: Text
+variants:
+    css: 'form.a-section li'
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: ""
+            type: Attribute
+            attribute: title
+        asin:
+            css: ""
+            type: Attribute
+            attribute: data-defaultasin
