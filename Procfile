@@ -1,1 +1,0 @@
-worker: python searchresults.py amazon.py AlertSender.py
